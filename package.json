@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe App",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaneMoroz/Forkify.git"
+  },
+  "author": "Jane Moroz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaneMoroz/Forkify/issues"
+  },
+  "homepage": "https://github.com/JaneMoroz/Forkify#readme",
+  "dependencies": {
+    "parcel": "^2.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1"
+  }
+}
