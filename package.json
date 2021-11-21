@@ -16,10 +16,12 @@
     "url": "https://github.com/JaneMoroz/Forkify/issues"
   },
   "homepage": "https://github.com/JaneMoroz/Forkify#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
     "parcel": "^2.0.1"
   },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.1"
+  "dependencies": {
+    "core-js": "^3.19.1",
+    "regenerator-runtime": "^0.13.9"
   }
 }
