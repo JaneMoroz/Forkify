@@ -16,7 +16,7 @@ export const state = {
 
 const createRecipeObject = function (data) {
   const { recipe } = data.data;
-  return {
+  const updatedRecipe = {
     id: recipe.id,
     title: recipe.title,
     publisher: recipe.publisher,
@@ -27,6 +27,8 @@ const createRecipeObject = function (data) {
     ingredients: recipe.ingredients,
     ...(recipe.key && { key: recipe.key }),
   };
+
+  return updatedRecipe;
 };
 
 export const loadRecipe = async function (id) {
